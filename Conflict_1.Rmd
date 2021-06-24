@@ -28,7 +28,7 @@ You can also embed plots, for example:
 ```{r pressure, echo=FALSE}
 plot(mtcars$disp, mtcars$mpg, 
      main = "MPG versus displacement", 
-     xlab = "Displacement(n)", 
+     xlab = "Displacement(11123n)", 
      ylab = "MPG")
 summary(mtcars$mpg)
 ```
