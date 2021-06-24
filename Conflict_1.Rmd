@@ -17,6 +17,7 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r cars}
 summary(mtcars)
+str(mtcars)
 ```
 Here is my summary of mt cars. Please make comments of this.
 
@@ -25,7 +26,10 @@ Here is my summary of mt cars. Please make comments of this.
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+plot(mtcars$disp, mtcars$mpg, 
+     main = "MPG versus displacement", 
+     xlab = "Displacement", 
+     ylab = "MPG")
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
