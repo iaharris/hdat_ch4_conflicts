@@ -23,11 +23,11 @@ Here is my summary of mt cars. Please make comments of this.
 
 ## Including Plots
 
-You can also embed plots, for example:
+These are our 'conflict' plots:
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo=TRUE}
 plot(mtcars$disp, mtcars$mpg, 
-     main = "MPG versus displacement", 
+     main = "Fuel efficiency versus displacement", 
      xlab = "Displacement", 
      ylab = "MPG")
 ```
