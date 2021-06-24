@@ -30,6 +30,9 @@ plot(mtcars$disp, mtcars$mpg,
      main = "MPG versus displacement", 
      xlab = "Displacement", 
      ylab = "MPG")
+summary(mtcars$mpg)
 ```
+Here is the plot and summary
+
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
